@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+.container {
+  max-width: 1280px;
+}
+.container.design > .row {
+    padding: 0px 15px;
+}
+.design h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #E91E63;
+    color: #6f4c58;
+}
+.design img.img-responsive {
+    width: 100%;
+}
+.design .col-lg-4 {
+    max-width: 30%;
+    margin: 0;
+    padding: 15px;
+}
+.design .col-lg-4:nth-child(2) {
+    margin: 0 5%;
+}
+.design .col-lg-4 h3 {
+    margin: 10px 0px 15px 0px;
+}

@@ -1,0 +1,30 @@
+.navbar-custom {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+/*Search Button*/
+#navbarCollapse > form > button {
+    background: #ffd100;
+    border-color: #ffd100;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0px 5px 5px 0px;
+}
+/*Search Input Field*/
+input.form-control.mr-sm-2 {
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 0px !important;
+    border: none;
+    height: 38px;
+}
+.bg-dark {
+    background-color: #000000!important;
+}
