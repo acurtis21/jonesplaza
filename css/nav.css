@@ -28,3 +28,10 @@ input.form-control.mr-sm-2 {
 .bg-dark {
     background-color: #000000!important;
 }
+@media (min-width: 768px) {
+	.navbar-expand-md .navbar-nav .nav-link {
+	    padding-right: 1rem;
+	    padding-left: 1rem;
+	    /*margin: 0 .7rem;*/
+	}
+}
