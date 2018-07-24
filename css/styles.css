@@ -23,8 +23,15 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
     margin-top: 4rem;
 }
-.design img.img-responsive {
+.design h4 {
+    margin-top: 1rem;
+}
+/*.design img.img-responsive {
     width: 100%;
+    height: auto;
+}*/
+.img-fluid {
+	width: 100%;
 }
 .design .col-lg-4 {
     /*max-width: 30%;*/
@@ -37,7 +44,16 @@ h1, h2, h3, h4, h5, h6 {
 .design .col-lg-4 h3 {
     margin: 10px 0px 15px 0px;
 }
-
+.featurette-heading span.title-sm {
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #999;
+    /* border-bottom: 2px solid #ddd; */
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
 span.caption1 {
     display: block;
     position: absolute;
@@ -58,4 +74,23 @@ span.caption2 {
     font-size: .8rem;
     background: #ffffff7a;
     padding: 10px;
+}
+p.caption {
+    font-size: .8rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+}
+.challenges p.caption {
+    text-align: center;
+}
+.container.sections {
+    margin-top: 3rem;
+}
+.sections .row.featurette {
+    margin-top: 2rem;
+}
+.container.sections .carousel-item {
+    background-color: #eee;
+    background-image: none;
 }

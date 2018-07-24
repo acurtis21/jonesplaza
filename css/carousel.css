@@ -43,6 +43,7 @@ section#carousel {
 #myCarousel > a.carousel-control-next > span.carousel-control-next-icon.carousel-control-next-icon2 {
     background-image: url(../img/carousel-next.svg);
     background-size: 20px 20px;
+    margin-left: 10px;
 }
 #myCarousel .btn-primary {
     color: #000;
@@ -52,10 +53,35 @@ section#carousel {
     font-weight: 600;
     font-size: 1rem;
 }
-
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-top: -40px;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    background: white;
+}
+.carousel-control-prev {
+    border-radius: 0px 50px 50px 0px;
+}
+.carousel-control-next {
+    border-radius: 50px 0px 0px 50px;
+}
 /* Carousel base class */
 .carousel {
-  /*margin-bottom: 4rem;*/
+    /* margin-bottom: 4rem; */
+    /*border-radius: 25px;*/
+    /*overflow: hidden;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -114,9 +140,10 @@ section#carousel {
   line-height: 1;
   letter-spacing: -.05rem;
 }
-.design h3.featurette-heading {
+.design h3.featurette-heading, .challenges h3.featurette-heading {
   text-align: left;
   margin: 1rem 0;
+  margin-top: 0;
   color: #000;
   font-weight: 500;
 }

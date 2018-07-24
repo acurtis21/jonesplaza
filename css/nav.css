@@ -14,7 +14,7 @@
 .navbar-dark .navbar-nav .active>.nav-link {
     background: #ffd100;
     color: black !important;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
 }
 a.nav-link {
     color: #666 !important;
