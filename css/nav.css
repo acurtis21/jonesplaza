@@ -3,10 +3,21 @@
 	max-width: 1280px;
 	margin: 0 auto;
 }
-.navbar-dark .navbar-nav .active>.nav-link {
-    background: white;
+.navbar-dark .navbar-brand {
     color: black;
-    border-radius: 5px;
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+/*    background: white;
+    color: black;
+    border-radius: 5px;*/
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    background: #ffd100;
+    color: black !important;
+    border-radius: 20px;
+}
+a.nav-link {
+    color: #666 !important;
 }
 /*Search Button*/
 #navbarCollapse > form > button {
@@ -16,17 +27,23 @@
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 0px 5px 5px 0px;
+    font-size: .8rem;
+    border-radius: 0px 25px 25px 0px;
 }
 /*Search Input Field*/
 input.form-control.mr-sm-2 {
-    border-radius: 5px 0px 0px 5px;
     margin-right: 0px !important;
-    border: none;
-    height: 38px;
+    height: 33px;
+    border: 1px solid #ddd;	
+    border-radius: 25px 0px 0px 25px;
+    border-right: 0px solid;
+    font-size: .9rem;
 }
 .bg-dark {
-    background-color: #000000!important;
+    /*background-color: #000000!important;*/
+    /*background-color: #134365!important;*/
+    background-color: #ffffff!important;
+    border-bottom: 1px solid #ddd;
 }
 @media (min-width: 768px) {
 	.navbar-expand-md .navbar-nav .nav-link {

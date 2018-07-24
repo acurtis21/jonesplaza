@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
@@ -14,11 +15,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .design h2 {
     margin-bottom: 30px;
-    text-align: center;
-    font-size: 2.5em;
+    /* text-align: center; */
+    font-size: 3.5em;
     font-weight: 500;
-    color: #E91E63;
-    /*color: #6f4c58;*/
+    /* color: #E91E63; */
+    color: #6f4c58;
+    color: #000;
+    margin-top: 4rem;
 }
 .design img.img-responsive {
     width: 100%;
@@ -29,8 +32,30 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px;
 }
 .design .col-lg-4:nth-child(2) {
-    margin: 0 5%;
+    /*margin: 0 5%;*/
 }
 .design .col-lg-4 h3 {
     margin: 10px 0px 15px 0px;
+}
+
+span.caption1 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 175px;
+    font-size: .8rem;
+    background: #ffffff7a;
+    padding: 10px;
+}
+
+span.caption2 {
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    left: 90%;
+    width: 175px;
+    font-size: .8rem;
+    background: #ffffff7a;
+    padding: 10px;
 }
