@@ -8,6 +8,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     color: #000000;
 }
+a.nav-link:hover {
+    color: #007bff !important;
+}
 .container {
   max-width: 1280px;
 }
@@ -17,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 .design h2 {
     margin-bottom: 30px;
     /* text-align: center; */
-    font-size: 3.5em;
+    font-size: 3.25em;
     font-weight: 500;
     /* color: #E91E63; */
     color: #6f4c58;
@@ -124,7 +127,72 @@ p.caption {
     background-image: none;
 }
 
-#home, #design, #challenges {
-	padding-top: 200px;
-    margin-top: -200px;
+#home, #design, #approach, #urban, #context, #illustrative, #challenges {
+	padding-top: 100px;
+    margin-top: -100px;
+}
+
+.dropdown .dropdown-menu {
+    /*display: block;*/
+    top: 50px;
+    border: none;
+    background: #000;
+    border-radius: 0;
+    min-width: 600px;
+    padding: 0px;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    display: inline;
+    width: auto;
+    color: white;
+    padding: 5px 25px;
+    font-size: .8rem;
+    float: left;
+    clear: none;
+}
+a.active#navbarDropdown {
+    border-radius: 25px;
+}
+.dropdown-item {
+	display: none;
+	/*left: 0px;*/
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+@keyframes move {
+    from {left: 55px;}
+    to {left: 25px;}
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    display: block;
+    position: absolute;
+    top: 33px;
+    left: 25px;
+    animation-name: move;
+    animation-duration: 0.3s;
+    width: initial;
+    padding: 7px 11px;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border-radius: 0px 20px 20px 20px;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    -webkit-box-shadow: 2px 2px 8px #0000003b;
+    -moz-box-shadow: 2px 2px 8px #0000003b;
+    -o-box-shadow: 2px 2px 8px #0000003b;
+    box-shadow: 2px 2px 8px #0000003b;
+}
+
+.dropdown-toggle::after {
+    /*display: inline-block;*/
+    display: none;
 }

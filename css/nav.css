@@ -40,6 +40,10 @@ a.nav-link {
 	transition: 0.3s ease;
 	padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
+    -webkit-box-shadow: 2px 2px 8px #0000003b;
+    -moz-box-shadow: 2px 2px 8px #0000003b;
+    -o-box-shadow: 2px 2px 8px #0000003b;
+    box-shadow: 2px 2px 8px #0000003b;
 }
 /*Search Button*/
 nav button.btn.btn-outline-success.my-2.my-sm-0 {
