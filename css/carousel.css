@@ -29,6 +29,25 @@ section#carousel {
     margin: 25px 0px 0px 0px;
     background-color: #eee;
 }
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255, 0);
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.carousel-indicators li:hover {
+    /* width: 30px; */
+    /* transition: 0.3s ease; */
+    cursor: pointer;
+}
 .container.container-carousel {
     /*margin-top: 50px;*/
     padding: 0px;
@@ -58,6 +77,11 @@ section#carousel {
     background: #007bff;
     border-color: #007bff;
     transition: 0.3s ease;
+}
+#myCarousel .btn-primary:hover svg {
+  color: white;
+  fill: white;
+  transition: 0.3s ease;
 }
 .btn-primary.focus, .btn-primary:focus {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25);
@@ -108,6 +132,12 @@ section#carousel {
     /* margin-bottom: 4rem; */
     /*border-radius: 25px;*/
     /*overflow: hidden;*/
+}
+span.button-arrow {
+    display: inline-block;
+    height: 10px;
+    width: 20px;
+    margin: 0 .5rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {

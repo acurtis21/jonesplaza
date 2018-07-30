@@ -22,6 +22,13 @@
     color: black;
     border-radius: 5px;*/
 }
+header.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark {
+    padding: 0px;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.navbar-custom {
+    height: 75px;
+}
 a.nav-link {
     color: #666 !important;
     font-family: 'Quicksand', sans-serif;
